@@ -44,7 +44,7 @@ function App() {
     <>
     <div className="body-div">
       <i className="fa-solid fa-magnifying-glass"></i>
-      <input className='search' type="text" value={query} onChange={({target})=>setquery(target.value)}/>
+      <input className='search' placeholder='Enter a city name...' type="text" value={query} onChange={({target})=>setquery(target.value)}/>
       <button className='enter_button' onClick={getWeather}>
         <img src={searchIcon} alt='search'></img> 
       </button>

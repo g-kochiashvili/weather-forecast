@@ -201,3 +201,11 @@ border-color: #ffffff;
 	font-size: 12px;
 	line-height: 15px;
 }
+
+::placeholder{
+	text-align: start;
+	padding-left: 20px;
+	color: rgb(247, 231, 231);
+	font-family: "Chocolate Classical Sans", sans-serif;
+	opacity: 0.5;
+}
